@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Task One",
+            "description": "This is the first task.",
+            "status": "completed"
+        },
+        {
+            "id": 2,
+            "name": "Task Two",
+            "description": "This is the second task.",
+            "status": "in-progress"
+        },
+        {
+            "id": 3,
+            "name": "Task Three",
+            "description": "This is the third task.",
+            "status": "not-started"
+        }
+    ]
+}
