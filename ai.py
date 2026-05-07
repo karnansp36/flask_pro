@@ -25,7 +25,7 @@ def generate_text():
     prompt = data.get('prompt')
 
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        model = genai.GenerativeModel("gemini-3-flash-preview")
         response = model.generate_content(prompt)
 
         return jsonify({
