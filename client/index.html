@@ -144,16 +144,7 @@
         fetchData();
       }
 
-      function loading(status){
-        const container = document.getElementById("container");
-        if(status == true){
-          container.innerHTML = "Loading...";
-
-        }
-        else{
-          container.innerHTML = "";
-        }
-      }
+      
       window.onload = fetchData;
 
       // ------------------- GEMINI TEXT GENERATION ---------------------

@@ -4,7 +4,7 @@ from routes import api_bp
 from ai import ai_bp
 
 app = Flask(__name__)
-CORS(app)
+CORS(app)  # Allow CORS for all origins (for development purposes)
 
 app.register_blueprint(api_bp)
 app.register_blueprint(ai_bp, url_prefix='/ai')
